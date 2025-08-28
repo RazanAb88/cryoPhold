@@ -181,9 +181,20 @@ Install `Gromacs`, `AmberTools` and `acpype`. Go to `simmodule` and run the `pro
 **You are ready to launch simulations from cryoPhold ensemble!** 🎉
 **Try launching multiple independent metadynamics simulations from each structures using `plumed.dat` file!** 🎉
 
-### Step 3: Train ML models on the MD data
+### Step 3: Featurize the MD data
 
-Create a new `conda` enviornment using `MDML package (https://github.com/svats73/mdml)` and train MD data generated from cryoPhold ensemble with ML models.
+```bash
+python ./scripts/dihedral.py -h
+```
+
+Use: 
+```bash
+python dihedral.py --directory ./trajectories  --angles phi psi chi1
+```
+
+### Step 4: Train ML models on the MD data
+
+Create a new `conda` enviornment using `MDML package (https://github.com/svats73/mdml)` or use the `mlmodule` to train the featurized data using ML model.
 
 **Boom! Build MSM, capture Hotspots, perform Clustering and find allosteric pockets!** 🎉
 

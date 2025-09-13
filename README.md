@@ -1,4 +1,4 @@
-# CryoPhold: CryoEM meets AlphaFold and molecular simulation to elucidate protein dynamics
+# CryoPhold: CryoEM meets AlphaFold and molecular simulation to reveal protein dynamics
 
 CryoPhold is a computational pipeline that performs Bayesian reweighting of AlphaFold predicted structural ensembles against experimental cryo-EM data. The pipeline determines optimal weights for each AlphaFold structure and identifies the minimal subset that best reproduces experimental density maps, enabling the elucidation of protein dynamics through the integration of AI-predicted structures and experimental data.
 

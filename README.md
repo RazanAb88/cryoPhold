@@ -79,7 +79,7 @@ Align the AlphaFold generated conformational ensemble to your experimental cryo-
 
 **Alternative**: If you have a corresponding PDB, align the AlphaFold ensemble using PyMOL or UCSF Chimera and save as `combined.pdb`. Transform the `combined.pdb` to a .xtc format using `gmx`, `mdtraj` or `mdanalysis`
 
-### Step 3: Refine and Combine Structures
+### Step 3: Align and Combine Structures
 
 Process the aligned structures:
 
@@ -96,7 +96,7 @@ This generates `combined.xtc` for the next step.
 
 We have already provided `AF2` and `Boltz` generated structural ensemble as examples.
 
-### Step 4: Bayesian Reweighting Analysis
+### Step 4: Bayesian Reweighting 
 
 Run the main CryoPhold pipeline:
 

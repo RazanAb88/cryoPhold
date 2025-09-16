@@ -20,7 +20,7 @@ CryoPhold implements a maximum entropy approach (BioEN algorithm) to:
 ## 📦 Installation
 
 ```bash
-git clone git@github.com:sbhakat/cryoPhold.git
+git clone git@github.com:strauchlab/cryoPhold.git
 cd cryoModule
 chmod +x setup.sh
 ./setup.sh

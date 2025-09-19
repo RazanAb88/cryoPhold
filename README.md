@@ -210,11 +210,20 @@ Please refer to the repository license for usage terms.
 
 Soumendranath Bhakat, Shray Vats, Andreas Mardt and Eva M. Strauch
 
-## 🙏 Citations
+## 🙏 Citation
 
 ```bash
-1. Włodarski, T., Streit, J.O., Mitropoulou, A. et al. Bayesian reweighting of biomolecular structural ensembles using heterogeneous cryo-EM maps with the cryoENsemble method. Sci Rep 14, 18149 (2024). https://doi.org/10.1038/s41598-024-68468-7
-2. Soumendranath Bhakat, Shray Vats, Andreas Mardt, Alexei Degterev, Generalizable Protein Dynamics in Kinases: Physics is the key, bioRxiv 2025.03.06.641878; doi: https://doi.org/10.1101/2025.03.06.641878
+@article {Bhakat2025.09.12.675912,
+	author = {Bhakat, Soumendranath and Vats, Shray and Mardt, Andreas and Strauch, Eva M.},
+	title = {CryoPhold: CryoEM meets AlphaFold and molecular simulation to reveal protein dynamics},
+	elocation-id = {2025.09.12.675912},
+	year = {2025},
+	doi = {10.1101/2025.09.12.675912},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2025/09/13/2025.09.12.675912},
+	eprint = {https://www.biorxiv.org/content/early/2025/09/13/2025.09.12.675912.full.pdf},
+	journal = {bioRxiv}
+}
 ```
 
 **Bridge the gap between AI-predicted structures and cryo-EM? Start your CryoPhold journey today!** ✨

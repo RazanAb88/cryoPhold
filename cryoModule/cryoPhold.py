@@ -54,7 +54,8 @@ if not os.path.exists(f"./iter"):
 # pathway to models from MD simulation
 path = args.path
 # Input data/files
-mapa = path+"reference.map"
+import os
+mapa = os.path.join(path, "reference.map")
 threshold = args.threshold
 ref_pdb = path+"prot-masses.pdb"
 ref_traj = path+"combined.xtc"

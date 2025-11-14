@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  alphafold:
+    image: alphafold_env
+    volumes:
+      - ./alphafold:/alphafold
+    environment:
+      - PYTHONPATH=/alphafold
+    working_dir: /alphafold
+    command: tail -f /dev/null
+
+  cryofold:
+    image: cryofold_env
+    container_name: cryofold_container
+    ports:
+      - "8891:8888"
+    volumes:
+      - ./cryofold:/cryofold
+    working_dir: /cryofold
+    command: bash
+    environment:
+      - PYTHONPATH=/cryofold
